@@ -19,7 +19,7 @@ class Percentage {
         System.out.print("Enter the marks of fifth subject: ");
         int num5 = scanner.nextInt();
 
-        int sum = num1 + num2 +num3 +num4 +num5 ;
+        float sum = num1 + num2 +num3 +num4 +num5 ;
         float avg =sum/5;
         float percentage =(sum*100)/500;
         System.out.println("Total no of the marks is: " + sum);
