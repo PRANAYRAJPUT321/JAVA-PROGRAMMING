@@ -1,8 +1,8 @@
- class ForEachLoopExample {
+ class Foreach {
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5};
-        for (int num : numbers) {
-            System.out.println(num);
+        int[] numbers = {1, 2, 3, 4, 5,6,7};
+        for (int i : numbers) {
+            System.out.println(i);
         }
     }
 }
