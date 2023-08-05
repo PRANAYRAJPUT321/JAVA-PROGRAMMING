@@ -4,7 +4,7 @@ class Factorial{
      int i,fact=1;  
      Scanner sc = new Scanner(System.in);
      System.out.println("Enter the number to find Factorial");
-     int number = sc.nextInt(i);   
+     int number = sc.nextInt();   
      for(i=1;i<=number;i++){    
          fact=fact*i;    
      }    
