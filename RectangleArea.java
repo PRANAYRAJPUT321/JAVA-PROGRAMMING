@@ -5,9 +5,7 @@ class RectangleArea{
      length=l;  
      width=w;  
     }  
-    void calculateArea(){System.out.println(length*width);}  
-   }  
-   class TestRectangle1{  
+    void calculateArea(){System.out.println(length*width);}   
     public static void main(String args[])
     {  
      RectangleArea r1=new RectangleArea();  
