@@ -21,10 +21,12 @@ class Student{
      s2.insertRecord(102,"Pushpak");  
      s3.insertRecord(103,"Pratik");  
      s4.insertRecord(104,"Aryan");  
+     s4.insertRecord(105,"Ritik"); 
      s1.displayInformation();  
      s2.displayInformation(); 
      s3.displayInformation();  
      s4.displayInformation(); 
+     s5.displayInformation(); 
     }  
    }  
    
