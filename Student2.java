@@ -5,8 +5,11 @@ class Student{
      rollno=r;  
      name=n;  
     }  
-    void displayInformation(){System.out.println(rollno);}  
-    void displayInformation1(){System.out.println(name);} 
+    void displayInformation(){
+        System.out.println(rollno);
+        System.out.println(name);
+    }  
+   
    }  
    class TestStudent4{  
     public static void main(String args[]){  
@@ -22,10 +25,6 @@ class Student{
      s2.displayInformation(); 
      s3.displayInformation();  
      s4.displayInformation(); 
-     s1.displayInformation1();  
-     s2.displayInformation1(); 
-     s3.displayInformation1();  
-     s4.displayInformation1(); 
     }  
    }  
    
