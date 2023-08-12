@@ -1,1 +1,3 @@
-class Calcultor
+class Calcultor{
+    
+}
