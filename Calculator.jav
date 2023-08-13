@@ -6,4 +6,8 @@ class Calcultor{
     void Add(int a int b){
         result=a+b;
     }
+
+    void display(){
+        
+    }
 }
