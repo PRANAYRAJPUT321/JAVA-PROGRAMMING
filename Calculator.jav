@@ -8,6 +8,6 @@ class Calcultor{
     }
 
     void display(){
-        
+        result=
     }
 }
