@@ -3,7 +3,7 @@ class Calcultor{
     int b;
     int result;
 
-    void Add{
+    void Add(int a int b){
         result=a+b;
     }
 }
