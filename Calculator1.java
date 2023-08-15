@@ -7,9 +7,16 @@ class Calculator1{
     int Sub;
 
 void Add (int a,int b){
-   Add=a=b;
+   Add=a+b;
 }
 void DisplayAdd(){
-    system.out.println("Addition of two number is : "+Add);
+    System.out.println("Addition of two number is : "+Add);
+}
+public static void main(String[] args) {
+    Calculator1 c1=new Calculator1();
+
+    c1.Add(23,45);
+
+    c1.DisplayAdd();
 }
 }
