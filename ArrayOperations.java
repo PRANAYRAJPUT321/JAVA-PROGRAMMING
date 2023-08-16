@@ -1,28 +1,39 @@
-class Array{
-    int []aar1;
-    int []aar2;
-    int []arr3;
+class ArrayOperations{
+    int arr1[];
+    int arr2[];
 
     void InsertArray(){
-        aar1=new int[] {1,2,3,4,5};
-        arr2=new int[arr1.lenth]
+     int   []arr1=new int[]{1,2,3,4,5};
+      int  []arr2=new int[arr1.length];
     }
 
     void CopyArray(){
-        for(i=0;i<arr1.length){
-            arr2[i]=arr1[i]
+        for(int i=0;i<arr1.length;i++){
+            arr2[i]=arr1[i];
         }
     }
 
-    void DispalyArray(){
-        for(i=0; i<arr1.length ){
-            System.out.println(arr1 +" ");
+    void DisplayArray()
+    {
+        System.out.println("Elements of Privios array :");
+        for(int i=0; i<arr1.length; i++){
+            System.out.println(arr1 + " ");
         }
-        for(i=0; i<arr2.length ){
-            System.out.println(arr2 +" ");
+        System.out.println("Elements of New array :");
+        for(int i=0; i<arr1.length; i++){
+            System.out.println(arr2 + " ");
         }
     }
-    public static void main(String[] args) {
-        
+
+    public static void main(String[] args)
+    {
+       ArrayOperations a1=new ArrayOperations();
+
+       a1.InsertArray();
+       
+       a1.CopyArray();
+
+       a1.DisplayArray();
     }
+
 }
