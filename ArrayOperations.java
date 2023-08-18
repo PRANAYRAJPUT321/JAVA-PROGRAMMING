@@ -12,7 +12,6 @@ class ArrayOperations {
             arr2[i] = arr1[i];
         }
     }
-
     void displayArray() {
         System.out.println("Elements of Previous array:");
         for (int i = 0; i < arr1.length; i++) {

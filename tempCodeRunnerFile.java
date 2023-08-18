@@ -1,0 +1,1 @@
+interest=(a*r*t)/100;
