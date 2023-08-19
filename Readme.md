@@ -54,8 +54,8 @@ Contributions are welcome! If you'd like to add more programs or improve existin
 
 Here are some screenshots of the Java programs in action:
 
-![Array](./images/Array.png)
-![Array Min Max](./images/Arrayminmax.png)
+![Array](./images/Array.png);
+![Array Min Max](./images/Arrayminmax.png);
 
 Feel free to reach out if you have any questions or suggestions.
 
