@@ -1,5 +1,5 @@
 class IncomeTax{
-    int amount;
-    int tax;
+    int Income;
+    int Tax;
 
 }
