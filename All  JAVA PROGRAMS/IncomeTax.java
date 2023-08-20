@@ -12,6 +12,8 @@ class IncomeTax{
     void DisplayTotalTax(){
         System.out.println("Tax to pay is"+Tax);
     }
-    
 
+public static void main(String[] args) {
+    
+}
 }
