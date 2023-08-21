@@ -1,20 +1,25 @@
-class StaticMethod{  
+class StaticMethod
+{  
     int rollno;  
     String name; 
     String branch; 
     static String college = "GH Raisoni";  
 
-    static void change(){  
+    static void change()
+    {  
     college = "Raisoni";  
     }  
     
-    StaticMethod(int r, String n ,String b){  
+    StaticMethod(int r, String n ,String b)
+    {  
     rollno = r;  
     name = n; 
     branch = b; 
     } 
 
-    void display(){System.out.println(rollno+" "+name+"  "+branch+" "+college);}  
+    void display(){
+        System.out.println(rollno+" "+name+"  "+branch+" "+college);
+    }  
 
    public static void main(String args[])
    {  
