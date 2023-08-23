@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
  class Add {  // created class of name Add.
     public static void main(String[] args) { //main function
         Scanner scanner = new Scanner(System.in); // creating object of scanner class
