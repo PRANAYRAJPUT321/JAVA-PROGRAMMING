@@ -12,7 +12,6 @@ import java.util.Scanner;
 
         int sum = num1 + num2;
         System.out.println("The sum of the two numbers is: " + sum);
-
         scanner.close();
     }
 }
