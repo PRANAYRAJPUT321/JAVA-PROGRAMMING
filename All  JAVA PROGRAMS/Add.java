@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
- class Add {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+ class Add {  // created class of name Add.
+    public static void main(String[] args) { //main function
+        Scanner scanner = new Scanner(System.in); // creating object of scanner class
 
-        System.out.print("Enter the first number: ");
+        System.out.print("Enter the first number: "); 
         int num1 = scanner.nextInt();
 
         System.out.print("Enter the second number: ");
