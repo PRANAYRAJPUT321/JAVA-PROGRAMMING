@@ -18,13 +18,15 @@ class Student2{
    Student s3=new Student(); 
    Student s4=new Student(); 
    Student s5=new Student(); 
-   Student s6=new Student(); 
+   Student s6=new Student();
+
      s1.insertRecord(101,"Pranay");  
      s2.insertRecord(102,"Pushpak");  
      s3.insertRecord(103,"Pratik");  
      s4.insertRecord(104,"Aryan");  
      s5.insertRecord(105,"Ritik"); 
      s6.insertRecord(106,"vikas"); 
+     
      s1.displayInformation();  
      s2.displayInformation(); 
      s3.displayInformation();  
