@@ -1,1 +1,2 @@
-interest=(a*r*t)/100;
+} 
+    //  class TestStudent{
