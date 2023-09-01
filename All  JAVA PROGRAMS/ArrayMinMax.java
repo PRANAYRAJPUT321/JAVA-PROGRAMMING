@@ -4,7 +4,6 @@ class ArrayMinMax {
     void insertElements(int[] arr) {
         elements = arr;
     }
-
     int findMax() {
         if (elements.length == 0) {
             return Integer.MIN_VALUE;
@@ -17,7 +16,6 @@ class ArrayMinMax {
         }
         return max;
     }
-
     int findMin() {
         if (elements.length == 0) {
             return Integer.MAX_VALUE;
@@ -30,8 +28,7 @@ class ArrayMinMax {
         }
         return min;
     }
-
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         int[] values = {5, 2, 9, 1, 7};
         ArrayMinMax arrayOps = new ArrayMinMax();
         arrayOps.insertElements(values);
