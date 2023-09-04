@@ -13,12 +13,13 @@ class SimpleFunction {
     }
 
     void display(){
-        System.out.println(c);
+        System.out.println();
     }
 public static void main(String[] args) {
     SimpleFunction s1=new SimpleFunction();
 
     s1.insert(2,3);
+    s1.mult();
     s1.display();
 }
 }
