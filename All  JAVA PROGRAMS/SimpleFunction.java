@@ -16,6 +16,9 @@ class SimpleFunction {
         System.out.println(c);
     }
 public static void main(String[] args) {
-    
+    SimpleFunction s1=new SimpleFunction();
+
+    s1.insert(2,3);
+    s1.display();
 }
 }
