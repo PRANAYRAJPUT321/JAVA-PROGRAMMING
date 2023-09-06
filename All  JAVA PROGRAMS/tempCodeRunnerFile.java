@@ -1,2 +1,1 @@
-} 
-    //  class TestStudent{
+AbstractBank a1=new AbstractBank();
