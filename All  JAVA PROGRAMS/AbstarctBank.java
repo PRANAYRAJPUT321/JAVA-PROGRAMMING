@@ -5,4 +5,6 @@ abstract class AbstractBank{
     Bank(){
         System.out.println("This is Bank");
     }
+    static Accounttype();
+    System.out.println("Savings");
 }
