@@ -8,7 +8,7 @@ public class Main1 {
         Armstrong checker = new Armstrong(num);
         
         if (checker.isArmstrong()) {
-            System.out.println(num + " is an Armstrong number.");
+            System.out.println(num + " is An Armstrong number.");
         } else {
             System.out.println(num + " is Not an Armstrong number.");
         }
