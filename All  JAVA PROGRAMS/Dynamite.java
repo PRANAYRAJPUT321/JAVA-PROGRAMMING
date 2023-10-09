@@ -2,7 +2,7 @@ class Dynamite{
     int id;
     String name;
 
-    void Dynamite(int i,String n)
+    void  Dynamite(int i,String n)
     {
         i=id;
         n=name;
