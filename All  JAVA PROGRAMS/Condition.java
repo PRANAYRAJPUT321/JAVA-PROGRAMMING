@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Condition{
     int a;
     int b;
