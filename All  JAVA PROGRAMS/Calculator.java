@@ -76,11 +76,7 @@ class Calculator{
         c5.DisplaySubstraction();
         System.out.println("\n");
 
-        c1.DisplayMultiplication();
-        c2.DisplayMultiplication();
-        c3.DisplayMultiplication();
-        c4.DisplayMultiplication();
-        c5.DisplayMultiplication();
+    
 
 
 
