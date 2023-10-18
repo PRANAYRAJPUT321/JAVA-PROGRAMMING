@@ -1,4 +1,4 @@
-# JAVA PROGRAMMING REPOSITORY 
+# Java Programming Repository 
 
 Welcome to my Java programming repository! This repository contains a collection of simple and basic Java programs to help you learn and practice Java programming concepts.
 
